@@ -7,7 +7,7 @@ The repository consists of 4 .py files:
 3. tester.py
 4. problem_generator.py
 
-*In the next sections I will explain the purpose of each file and how to use it.*
+*In the next sections I will explain the purpose of each file and what files are required for it.*
 
 ### 1. game.py
 This file is the implementation of the 3D-Tic-Tac-Toe-game. \
@@ -28,7 +28,7 @@ Requires: game.py
 
 ### 3. tester.py
 Also a runnable file. Its purpose is to test different play sequences.  \
-Writing one long play sequence so that at the end of reading this sequence the match will be rolled (Winner / Tie / Still on)
+Writing one long play sequence so that at the end of reading this sequence the match will be ruled (Winner / Tie / Still on)
 
 *Example*
 
@@ -47,7 +47,7 @@ We can choose to find more than one play sequence by changing the value of `prob
 <img src="https://user-images.githubusercontent.com/92261832/206936703-bcb2a47f-7f44-4f84-ac8b-d31355e637f6.png" width="800" height="auto">
 
 
-We will also save the results (Winenr / Tie) and the winning sequence.
+We will also save the results (Winner / Tie) and the winning sequence.
 
 *Example of results.txt*
 
